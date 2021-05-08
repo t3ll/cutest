@@ -5,7 +5,7 @@ typedef char * a_result;
 
 #define PASS NULL
 
-#define a_test(name) static a_result test_##name() 
+#define test(name) static a_result test_##name() 
 #define do_assert(msg, test) do{if(!(test)) return msg;}while(0)
 #define do_test(name) do{a_result msg=test_##name();if(msg) return msg;}while(0)
 #define run_test(name) test_##name()
