@@ -20,7 +20,7 @@ test(every) {
 }
 
 int main(void) {
-    a_result result = run_test(every);
+    test_result result = run_test(every);
     print_result(stdout, result);
     return test_status(result);
 };
