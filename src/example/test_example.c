@@ -21,6 +21,6 @@ test(every) {
 
 int main(void) {
     a_result result = run_test(every);
-    do_print_result(stdout, result);
-    return a_status(result);
+    print_result(stdout, result);
+    return test_status(result);
 };
