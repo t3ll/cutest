@@ -4,12 +4,12 @@
 #include "add.h"
 
 a_test(add_working) {
-	do_assert("add_working(1,2) should be equal to 3", add_working(1,2) == 3);
+    do_assert("add_working(1,2) should be equal to 3", add_working(1,2) == 3);
     return PASS;
 }
 
 a_test(add_broken) {
-	do_assert("add_broken(1,2) should be equal to 3", add_broken(1,2) == 3);
+    do_assert("add_broken(1,2) should be equal to 3", add_broken(1,2) == 3);
     return PASS;
 }
 
